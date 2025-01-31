@@ -11,9 +11,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <!-- style for animation -->
+    <style>
+        @keyframes gradientMove {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+      </style>
   </head>
   <body>
-    <div class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+    <div class=" bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
       <nav class="text-[#]">
         <div
           class="flex lg:justify-around lg:py-4 lg:items-center justify-between items-center border-b border-[#179800] md:border-b-0"
@@ -75,7 +83,7 @@
     </div>
     <div class=" inline-block md:flex gap-7 md:mx-20 my-10  py-4 px-2">
       <!-- card 1 -->
-      <div class=" flex-col justify-center items-center bg-[#EFEBE3] rounded-xl ">
+      <div class=" flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-500 bg-[length:200%_200%] animate-[gradientMove_3s_infinite] rounded-xl ">
         <div class=" h-32 w-32 rounded-full bg-[#f7f8f894] overflow-hidden text-center mx-auto my-3">
           <img
             class=" text-center rounded-full mx-auto mt-3 my-3"
@@ -86,7 +94,7 @@
 
         <div>
           <h1 class="text-center text-2xl my-3 text-[#111111]">24/7 Services</h1>
-          <p class="text-center text-gray-500 mb-5">
+          <p class="text-center text-[#111111] mb-5">
             "No matter the time, we’re just a call or click away. Our team is
             dedicated to providing you with consistent support whenever you need
             it
@@ -94,7 +102,7 @@
         </div>
       </div>
       <!-- Card 2 -->
-      <div class=" flex-col justify-center items-center bg-[#EFEBE3] rounded-xl ">
+      <div class=" flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-500 bg-[length:200%_200%] animate-[gradientMove_3s_infinite] rounded-xl ">
         <div class=" h-32 w-32 rounded-full bg-[#f7f8f894] overflow-hidden text-center mx-auto my-3">
           <img
             class=" text-center rounded-full mx-auto mt-3"
@@ -105,7 +113,7 @@
 
         <div>
           <h1 class="text-center text-2xl my-3 text-[#111111]">Fast Delivery</h1>
-          <p class="text-center text-gray-500 mb-5">
+          <p class="text-center text-[#111111] mb-5">
             "No matter the time, we’re just a call or click away. Our team is
             dedicated to providing you with consistent support whenever you need
             it
@@ -113,7 +121,7 @@
         </div>
       </div>
       <!-- card 3 -->
-       <div class=" flex-col justify-center items-center bg-[#EFEBE3] rounded-xl ">
+       <div class=" flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-500 bg-[length:200%_200%] animate-[gradientMove_3s_infinite] rounded-xl ">
         <div class=" h-32 w-32 rounded-full bg-[#f7f8f894] overflow-hidden text-center mx-auto my-3">
             <img
               class=" text-center rounded-full mx-auto mt-3"
@@ -124,7 +132,7 @@
   
           <div>
             <h1 class="text-center text-2xl my-3 text-[#111111]">Healthy Products </h1>
-            <p class="text-center text-gray-500 mb-5">
+            <p class="text-center text-[#111111] mb-5">
               "No matter the time, we’re just a call or click away. Our team is
               dedicated to providing you with consistent support whenever you need
               it
